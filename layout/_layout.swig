@@ -16,7 +16,7 @@
 
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
 <head>
-  {{ partial('_partials/head/head.swig', {}, {cache: theme.cache.enable}) }}
+  {{ partial('_partials/head/head.swig', {}, {cache: false}) }}
   {% include '_partials/head/head-unique.swig' %}
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
