@@ -319,7 +319,7 @@ codeblock:
 wechat_subscriber:
   enabled: true
   qcode: /uploads/wechat-qrcode.jpg
-  description: 订阅公众号，了解更多资讯
+  description: 关注数理之声，了解更多资讯
 
 # Reward
 # If true, reward would be displayed in every article by default.
