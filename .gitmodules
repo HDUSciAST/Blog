@@ -1,0 +1,4 @@
+[submodule "theme"]
+path = themes/next
+url = https://github.com/HDUSciAST/Blog.git
+branch = theme
